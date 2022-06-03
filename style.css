@@ -1,0 +1,10 @@
+.bg-gray { background: #f4f7fe; }
+
+figure .image {
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 5px;
+}

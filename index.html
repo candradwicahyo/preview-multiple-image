@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>preview multiple image</title>
+</head>
+<body class="bg-gray">
+
+  <div class="container my-3">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+
+        <div class="bg-white p-4 rounded shadow-sm">
+          <div class="bg-primary bg-gradient p-4 rounded">
+            <h1 class="fw-normal text-white">Preview Multiple Image</h1>
+            <p class="fw-light text-light">
+              program ini dibuat dengan bahasa pemrograman javascript. program ini berguna untuk menampilkan beberapa gambar sebelum gambar tersebut diuploae
+            </p>
+          </div>
+
+          <div class="content">
+            <input type="file" class="d-none" id="choose" accept="image/*" multiple>
+            <label for="choose" class="btn btn-outline-primary w-75 d-block mx-auto my-4">Choose An Image</label>
+          </div>
+          <div class="row images-wrapper">
+            <!-- content -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
